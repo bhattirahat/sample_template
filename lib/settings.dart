@@ -7,15 +7,14 @@ class Second_Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.white,
       appBar: AppBar(title: Text('Settings')),
-      body: HomePage(
+      // body: HomePage(
 
-          // child: TextButton(
-          //   style: TextButton.styleFrom(primary: Colors.red),
-          //   child: Text('go back'),
-          //    onPressed: () => Navigator.pop(context),
-          ),
+      // child: TextButton(
+      //   style: TextButton.styleFrom(primary: Colors.red),
+      //   child: Text('go back'),
+      //    onPressed: () => Navigator.pop(context), )
     );
   }
 }
