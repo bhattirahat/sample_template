@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:sample_template/settings.dart';
 import 'package:sample_template/profile.dart';
+import 'package:sample_template/health_tab.dart';
+import 'package:sample_template/dashboard.dart';
 // import 'settings.dart';
 
 void main() {
@@ -91,7 +93,7 @@ class Drawers extends StatelessWidget {
             ),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Second_Page()),
+              MaterialPageRoute(builder: (context) => health_tab()),
             ),
           ),
           ListTile(
@@ -101,7 +103,7 @@ class Drawers extends StatelessWidget {
             ),
             onTap: () => Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => Second_Page()),
+              MaterialPageRoute(builder: (context) => dashboard()),
             ),
           ),
         ],

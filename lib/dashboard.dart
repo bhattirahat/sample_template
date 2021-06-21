@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Profile_Page extends StatelessWidget {
-  const Profile_Page({Key? key}) : super(key: key);
+class dashboard extends StatelessWidget {
+  const dashboard({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Profile Page'),
+        title: Text('Dashboard'),
         backgroundColor: Colors.green,
       ),
       body: Container(
